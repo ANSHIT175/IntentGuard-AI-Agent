@@ -1,10 +1,17 @@
-# IntentGuard – Trustworthy & Secure Autonomous AI Agent
+# IntentGuard: An Intent-Aware Security Layer for Preventing Financial Fraud & Unsafe Autonomous Actions
 
 ## 🚀 Overview IntentGuard is a **security-first autonomous AI agent framework** that ensures AI systems act **only within approved intent, policy, and safety boundaries**.
 
 Unlike traditional agents that directly execute user instructions, IntentGuard **thinks before acting** by validating intent, enforcing runtime policies, and blocking unsafe actions in real time.
 
 This makes IntentGuard suitable for **critical, real-world AI deployments** where safety, compliance, and trust are mandatory.
+
+### ArmorIQ Alignment
+
+IntentGuard is inspired by ArmorIQ’s core philosophy — **“Know the Intent. Control the Action.”**  
+The system introduces an intent intelligence and runtime policy enforcement layer that evaluates risk before execution, ensuring autonomous agents act only within safe, compliant, and policy-approved boundaries.
+
+This alignment demonstrates how IntentGuard applies ArmorIQ-like intent validation and action control principles in real-world security and fraud prevention scenarios.
 
 ---
 
@@ -75,6 +82,12 @@ IntentGuard follows a layered defense approach:
 
 This ensures **multiple safety checkpoints before execution**.
 
+> ArmorIQ Concept Mapping:
+> - Intent Analyzer → Intent Intelligence
+> - Policy Engine → Runtime Policy Enforcement
+> - Action Executor → Controlled & Safe Execution
+> - Audit Logger → Compliance & Traceability
+
 ---
 
 ## 🗂 Project Structure
@@ -106,6 +119,9 @@ python app.py
   "reason": "Intent violates runtime security policy"
 }
 ```
+This decision flow reflects ArmorIQ-inspired intent-aware execution control, where unsafe actions are blocked before causing real-world impact.
+
 ---
+
 ✅ Project ready for evaluation.
 
