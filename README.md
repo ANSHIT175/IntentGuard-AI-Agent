@@ -1,0 +1,111 @@
+# IntentGuard – Trustworthy & Secure Autonomous AI Agent
+
+## 🚀 Overview IntentGuard is a **security-first autonomous AI agent framework** that ensures AI systems act **only within approved intent, policy, and safety boundaries**.
+
+Unlike traditional agents that directly execute user instructions, IntentGuard **thinks before acting** by validating intent, enforcing runtime policies, and blocking unsafe actions in real time.
+
+This makes IntentGuard suitable for **critical, real-world AI deployments** where safety, compliance, and trust are mandatory.
+
+---
+
+## ❗ Problem Statement
+As AI agents become more autonomous, they face a critical risk:
+
+> AI systems may unintentionally perform unsafe, unauthorized, or irreversible actions when intent is not properly validated.
+
+This can result in:
+- Severe security breaches  
+- Legal and compliance violations  
+- Loss of human control over AI systems  
+
+Current AI systems focus on **capability**, not **control**.
+
+---
+
+## ✅ Our Solution
+IntentGuard introduces an **Intent Intelligence & Policy Enforcement Layer** between user input and agent execution.
+
+Before any action is taken, the system:
+- Understands **what the user really wants**
+- Evaluates **risk and safety impact**
+- Applies **runtime security policies**
+- Decides whether to **ALLOW, BLOCK, or FLAG** the action
+
+This ensures **human-aligned, policy-driven AI behavior**.
+
+---
+
+## ⭐ Why IntentGuard is Different (Key Advantage)
+✔️ Security-first (not feature-first)  
+✔️ Intent-aware decision making  
+✔️ Runtime policy enforcement (not static rules)  
+✔️ Explainable blocking decisions  
+✔️ Full audit trail for transparency  
+✔️ Designed for real-world AI safety challenges  
+
+This directly addresses the **core concern of modern AI governance**.
+
+---
+
+## 🔑 Key Features
+- Intent Classification: SAFE / SENSITIVE / DANGEROUS
+- Real-time Policy Enforcement Engine
+- Safe Action Simulation before execution
+- Explainable Action Blocking (clear reasons)
+- Audit Logging for accountability
+- Modular & extensible architecture
+- ArmorIQ-inspired security design
+
+---
+
+## 🧠 Architecture (Security-First Design)
+IntentGuard follows a layered defense approach:
+
+1. **Intent Analyzer**  
+   Interprets and classifies user intent
+
+2. **Policy Engine**  
+   Validates intent against security & compliance rules
+
+3. **Action Executor**  
+   Executes allowed actions or safely blocks violations
+
+4. **Audit Logger**  
+   Records all decisions for traceability and review
+
+This ensures **multiple safety checkpoints before execution**.
+
+---
+
+## 🗂 Project Structure
+IntentGuard-AI-Agent/
+├── app.py # Main application entry
+├── intent_analyzer.py # Intent understanding logic
+├── policy_engine.py # Runtime policy validation
+├── action_executor.py # Controlled execution layer
+├── policies.json # Security & compliance rules
+├── requirements.txt
+├── README.md
+├── logs/
+│ └── audit_log.txt # Decision audit trail
+└── docs/
+└── architecture.txt # Detailed architecture notes
+---
+
+## ▶️ How to Run (Local)
+```bash
+pip install -r requirements.txt
+python app.py
+
+## 📤 Example Output
+
+```json
+{
+  "intent": "DANGEROUS",
+  "decision": "BLOCKED",
+  "reason": "Intent violates runtime security policy"
+}
+```
+---
+✅ Project ready for evaluation.
+
