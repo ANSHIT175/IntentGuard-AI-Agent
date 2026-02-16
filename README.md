@@ -13,13 +13,6 @@ Unlike traditional agents that directly execute user instructions, IntentGuard *
 
 This makes IntentGuard suitable for **critical, real-world AI deployments** where safety, compliance, and trust are mandatory.
 
-### ArmorIQ Alignment
-
-IntentGuard is inspired by ArmorIQ’s core philosophy — **“Know the Intent. Control the Action.”**  
-The system introduces an intent intelligence and runtime policy enforcement layer that evaluates risk before execution, ensuring autonomous agents act only within safe, compliant, and policy-approved boundaries.
-
-This alignment demonstrates how IntentGuard applies ArmorIQ-like intent validation and action control principles in real-world security and fraud prevention scenarios.
-
 ---
 
 ## ❗ Problem Statement
