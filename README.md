@@ -96,19 +96,21 @@ This ensures **multiple safety checkpoints before execution**.
 
 ---
 
-## 🗂 Project Structure
+## 📁 Project Structure
+
 IntentGuard-AI-Agent/
-├── app.py # Main application entry
-├── intent_analyzer.py # Intent understanding logic
-├── policy_engine.py # Runtime policy validation
-├── action_executor.py # Controlled execution layer
-├── policies.json # Security & compliance rules
+├── app.py                  # Main application entry
+├── intent_analyzer.py      # Intent understanding logic
+├── policy_engine.py        # Runtime policy validation
+├── action_executor.py      # Controlled execution layer
+├── policies.json           # Security & compliance rules
 ├── requirements.txt
 ├── README.md
 ├── logs/
-│ └── audit_log.txt # Decision audit trail
+│   └── audit_log.txt       # Decision audit trail
 └── docs/
-└── architecture.txt # Detailed architecture notes
+    └── architecture.txt    # Detailed architecture notes
+
 ---
 
 ## ▶️ How to Run (Local)
