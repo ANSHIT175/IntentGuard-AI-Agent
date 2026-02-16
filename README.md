@@ -98,6 +98,7 @@ This ensures **multiple safety checkpoints before execution**.
 
 ## 📁 Project Structure
 
+```text
 IntentGuard-AI-Agent/
 ├── app.py                  # Main application entry
 ├── intent_analyzer.py      # Intent understanding logic
@@ -110,6 +111,7 @@ IntentGuard-AI-Agent/
 │   └── audit_log.txt       # Decision audit trail
 └── docs/
     └── architecture.txt    # Detailed architecture notes
+
 
 ---
 
