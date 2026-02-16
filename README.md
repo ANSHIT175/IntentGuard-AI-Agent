@@ -116,6 +116,17 @@ IntentGuard-AI-Agent/
 pip install -r requirements.txt
 python app.py
 
+### 💳 Example Financial Fraud Use Case
+
+**Scenario:**  
+An autonomous financial agent attempts a high-value transfer from a newly created account with abnormal transaction frequency.
+
+**Decision:**  
+BLOCKED
+
+**Reason:**  
+High-risk intent detected combined with mule account behavioral patterns, violating runtime security policy.
+
 ## 📤 Example Output
 
 ```json
@@ -125,6 +136,7 @@ python app.py
   "reason": "Intent violates runtime security policy"
 }
 ```
+
 This decision flow reflects ArmorIQ-inspired intent-aware execution control, where unsafe actions are blocked before causing real-world impact.
 
 ---
