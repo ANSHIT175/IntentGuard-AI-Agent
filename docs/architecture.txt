@@ -1,0 +1,19 @@
+IntentGuard follows a security-first AI agent architecture:
+
+User Input
+   ↓
+Intent Analyzer (Intent Intelligence)
+   ↓
+Risk Assessor (Impact Evaluation)
+   ↓
+Policy Engine (Runtime Enforcement)
+   ↓
+Action Simulation (Pre-execution Safety)
+   ↓
+Action Executor (Controlled Execution)
+   ↓
+Audit Logger (Compliance & Traceability)
+
+Inspired by ArmorIQ's principle:
+"Know the Intent. Control the Action."
+
