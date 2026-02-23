@@ -1,15 +1,7 @@
-"""
-Controlled Action Executor
-"""
+def allowed_action():
+    with open("allowed.txt", "w") as f:
+        f.write("This action was allowed by IntentGuard")
+    return "ALLOWED: File created"
 
-def execute_action(decision: dict) -> str:
-    """
-    Executes action only if policy engine allows it.
-    """
-    if decision["decision"] == "BLOCKED":
-        return "❌ Execution blocked: Unsafe or non-compliant action detected"
-
-    if decision["decision"] == "FLAGGED":
-        return "⚠️ Execution flagged: Requires human review"
-
-    return "✅ Execution allowed: Action performed safely"
+def blocked_action():
+    raise PermissionError("BLOCKED: Policy violation")
