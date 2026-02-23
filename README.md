@@ -101,6 +101,19 @@ User Input → Intent Analyzer → Risk Assessor → Policy Engine
 > - Action Executor → Controlled & Safe Execution
 > - Audit Logger → Compliance, Monitoring & Traceability
 
+## 🔗 OpenClaw Integration
+IntentGuard is designed to work alongside an OpenClaw-based autonomous agent.
+
+Flow:
+User Command → OpenClaw Agent → IntentGuard (Intent + Policy Layer) → Action Executor
+
+- OpenClaw receives the user instruction
+- Proposed action is sent to IntentGuard
+- IntentGuard validates intent and enforces runtime policies
+- Action is either ALLOWED or BLOCKED with explanation
+- Decision is returned back to the OpenClaw agent
+
+
 ---
 
 ## 📁 Project Structure
